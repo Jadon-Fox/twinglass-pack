@@ -1,9 +1,29 @@
 {
   "name": "twinglass",
-  "version": "1.5.0",
-  "description": "Twinglass pack + engine. NS methods bound: cousin, variant-split, consolidator, dead-end. Circular LIVE_NAME. Presuppositional Twin-Lattice RAG: P1-P5 axes, causal multi-branching (M1-M7), 4-stage primary provenance. Spawn is CLI agent() dispatch. SI gather. Active typical <=25, hard 30.",
-  "author": { "name": "Jadon Fox", "url": "https://github.com/Jadon-Fox" },
+  "version": "1.5.1",
+  "description": "Twinglass pack + engine. NS methods bound: cousin, variant-split, consolidator, dead-end. Circular LIVE_NAME. Presuppositional Twin-Lattice RAG: P1-P5 axes, causal multi-branching (M1-M7), 4-stage primary provenance. Spawn is CLI agent() dispatch. SI gather. Active typical <=25, hard 30. Includes MIT Source Ledger source-custody skill for evidence-preserving Astra handoffs.",
+  "author": {
+    "name": "Jadon Fox",
+    "url": "https://github.com/Jadon-Fox"
+  },
   "homepage": "https://github.com/Fractal-Deployment/twinglass-pack",
   "license": "MIT",
-  "keywords": ["twinglass", "lattice", "lrr", "llmve", "skills", "engine", "workflow", "ring", "circular", "rag", "presuppositions", "causal-branching"]
+  "keywords": [
+    "twinglass",
+    "lattice",
+    "lrr",
+    "llmve",
+    "skills",
+    "engine",
+    "workflow",
+    "ring",
+    "circular",
+    "rag",
+    "presuppositions",
+    "causal-branching",
+    "mit-source-ledger",
+    "source-custody",
+    "provenance",
+    "astra"
+  ]
 }

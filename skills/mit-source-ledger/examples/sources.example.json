@@ -1,0 +1,14 @@
+{
+  "project": "Example project (fictional fixture)",
+  "scope": "Only the two example files; no external systems",
+  "excluded_sources": ["No emails, repositories, or connected drives"],
+  "lexicon": ["junction", "bridge", "definition", "relationship"],
+  "sources": [
+    {"key": "doc-a", "text_path": "sample-a.txt", "title": "Draft A", "source_uri": "file://example/sample-a.txt", "source_type": "local_file", "claimed_status": "DRAFT", "capture_method": "utf8_local_text"},
+    {"key": "doc-b", "text_path": "sample-b.txt", "title": "Draft B", "source_uri": "file://example/sample-b.txt", "source_type": "local_file", "claimed_status": "PROPOSED", "capture_method": "utf8_local_text"},
+    {"key": "doc-a-copy", "text_path": "sample-a.txt", "title": "A separate copy of Draft A", "source_uri": "file://example/sample-a-copy.txt", "source_type": "local_file", "claimed_status": "OPEN", "capture_method": "utf8_local_text"}
+  ],
+  "relationships": [
+    {"relation_type": "EXPLICITLY_MENTIONS", "endpoints": [{"source_key": "doc-a"}, {"source_key": "doc-b"}], "scope": "fictional fixture", "support": [{"source_key": "doc-b", "verbatim_quote": "Draft A discusses a junction."}], "claimed_status": "SOURCE_ASSERTED_NOT_VERIFIED"}
+  ]
+}

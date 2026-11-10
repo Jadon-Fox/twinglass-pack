@@ -19,6 +19,7 @@ Load `DISCOVERED.md`, `APPARATUS.md`, `WORKFLOW_HOST.md`, `RING.md`, `CIRCULAR.m
 | `twinglass-dispatch` | CLI notify | Legal spawn note → workflow.agent() brief. Not a walker. |
 | `twinglass-tracker` | SI ledger | Gather debts; stagger meet until axes named. Not a reset. |
 | `presuppositional-rag` | active RAG | P1-P5 entailments -> 7 causal mechanisms -> active RAG with 4-stage provenance |
+| `mit-source-ledger` | source custody | Collect and verify evidence-preserving project packets for Astra or other agents; no unsolicited semantic adjudication |
 ## Dead (do not attach)
 `morph-shared` `deep-think` `deep-research` `argueforge` `llmve-matmul-algebra` `transformer-matmul-geometry` `breakthrough-multi-path-thinking` `evidence-hourglass-research` `precise-activate` / `precise-activate-plugin`
 ## Stay plugins
@@ -31,6 +32,8 @@ git clone https://github.com/Jadon-Fox/twinglass-pack.git
 grok plugin install ./twinglass-pack --trust
 ```
 One source of truth. Plugin *or* `~/.grok/skills`. Not both.
+
+**MIT Source Ledger migration:** If `mit-source-ledger` is already installed as a standalone Grok/Antigravity plugin or user-level skill, do not also enable the Twinglass-bundled copy in the same harness. Choose one provider per harness; verify skill discovery and disable duplicate registration before claiming completion. The separate ChatGPT personal plugin is an independent distribution, not a synchronized repo copy.
 ## Commands
 - `/lattice` → twinglass-lattice (see `APPARATUS.md`)
 - `/activate` → logic-ration-reason, then honest-prompt-rewrite
@@ -41,6 +44,7 @@ One source of truth. Plugin *or* `~/.grok/skills`. Not both.
 - `/sleep` → write `reports/circular_packets/<seat>.pad.md` using the current RING packet contract
 - `/circular` → CIRCULAR.md (NS methods bound; not ten chairs)
 - `/presuppositional-rag` → PRESUPPOSITIONAL_RAG.md (P1-P5 active causal RAG)
+- `/mit-source-ledger` → evidence custody, reversible source-indexed packet, independent verification, optional explicit-only relationships
 Do not load lattice and twin on the same charge.
 ## License
 MIT

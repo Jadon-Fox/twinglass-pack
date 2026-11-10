@@ -1,0 +1,8 @@
+{
+  "turns": [
+    {"key": "USER-1", "origin": "direct_user_message", "text": "Keep the junction and its pathways separately recoverable."}
+  ],
+  "exact_quotes": [
+    {"turn_key": "USER-1", "quote": "Keep the junction and its pathways separately recoverable."}
+  ]
+}
